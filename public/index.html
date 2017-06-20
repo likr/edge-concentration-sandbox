@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>edge-concentration-sandbox</title>
+</head>
+<style>
+body {
+  background-color: #eee;
+}
+#screen-wrapper {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+}
+#screen {
+  background-color: #fff;
+  cursor: move;
+}
+#screen g.vertex {
+  cursor: pointer;
+}
+</style>
+<body>
+<div>
+  <div id="screen-wrapper">
+    <svg id="screen"></svg>
+  </div>
+</div>
+<script src="bundle.js"></script>
+</body>
+</html>

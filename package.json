@@ -1,0 +1,36 @@
+{
+  "name": "edge-concentration-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "NODE_ENV=production webpack && gh-pages -d public",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likr/edge-concentration-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/likr/edge-concentration-sandbox/issues"
+  },
+  "homepage": "https://github.com/likr/edge-concentration-sandbox#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "d3": "^4.9.1",
+    "d3-egraph": "^1.0.0",
+    "egraph": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "gh-pages": "^1.0.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

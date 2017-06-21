@@ -22,7 +22,7 @@
   "dependencies": {
     "babel-polyfill": "^6.23.0",
     "d3": "^4.9.1",
-    "d3-egraph": "^1.0.0",
+    "d3-egraph": "^1.0.1",
     "egraph": "^3.0.0"
   },
   "devDependencies": {
